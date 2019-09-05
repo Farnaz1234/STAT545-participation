@@ -16,3 +16,4 @@ https://github.com/Farnaz1234
 
 Here is the URL to the Assignment 01 last year (due by 23:59 Tuesday 2018-09-18)
 
+https://github.com/STAT545-UBC/Classroom/blob/f00f84fd519cf872fe46a5942cb65cee3c7ca750/assignments/hw01/hw01.md
