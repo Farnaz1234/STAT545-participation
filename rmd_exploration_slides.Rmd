@@ -1,0 +1,24 @@
+---
+title: "rmd_exploration_slides"
+output: ioslides_presentation
+---
+```{r load, warning = FALSE, echo = FALSE} 
+library(tibble)
+library(gapminder)
+library(DT)
+```
+## Print out gapminder data:
+```{r}
+gapminder
+```
+## tibble
+```{r}
+tibble::as_tibble(mtcars)
+```
+##put mtcars in a tibble, and wrap in a datatable:
+```{r}
+datatable(as_tibble(mtcars))
+```
+
+
+
