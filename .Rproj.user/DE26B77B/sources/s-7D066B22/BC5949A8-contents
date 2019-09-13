@@ -1,0 +1,35 @@
+---
+title: "rmd_exploration"
+author: "Farnaz Sahragard"
+output:
+  html_document:
+  keep_md: true
+  toc: true
+  number_sections: true
+  theme: cerulean
+---
+ 
+```{r load, warning = FALSE, echo = FALSE} 
+library(tibble)
+library(gapminder)
+library(DT)
+```
+## Print out gapminder data:
+```{r}
+gapminder
+```
+
+```{r}
+tibble::as_tibble(mtcars)
+```
+##put mtcars in a tibble, and wrap in a datatable:
+```{r}
+datatable(as_tibble(mtcars))
+```
+  
+
+
+
+<!__This is a comment__> 
+
+## print out 
