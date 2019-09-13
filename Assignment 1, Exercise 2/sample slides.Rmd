@@ -1,0 +1,50 @@
+---
+title: "Presentation Slides"
+output: 
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# R Markdown
+
+```{r, echo=FALSE}
+library(gapminder)
+```
+
+## structure of gapminder
+
+```{r,size=5}
+str1 <- str(gapminder)
+str1 <- as.list(str1)
+str1
+```
+
+## calculating the mean
+ - using the `mean()` function
+
+
+```{r, echo=T}
+mean(gapminder$lifeExp)
+```
+
+ - using custom function
+ 
+```{r, echo=T}
+sum(gapminder$lifeExp)/length(gapminder$lifeExp)
+```
+
+## plotting
+
+```{r, echo=FALSE}
+plot(gapminder$year, gapminder$pop, main = "Population plot over the years")
+```
+
+## 4.sum of years
+```{r, echo = FALSE}
+sum(gapminder$year)
+```
