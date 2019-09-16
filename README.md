@@ -4,7 +4,7 @@ A __repository__ is like a folder for our project. It contains all of our projec
 
 Here is the URL to my repo:
 
-## Introduction of myself
+# About me
 My name is Farnaz Sahragard. I am a graduate student in Pathology and Laboratory Medicine. I am originally from Iran, but I had the chance to finish my elementary school in Vancouver. My hobbies are listed below:
 
 * Swimming
