@@ -27,7 +27,7 @@ plot(gapminder$year, gapminder$pop, main = "Population plot over the years")
 
 
 # 4.sum of years
-```{r, echo = FALSE}
+```{r}
 sum(gapminder$year)
 ```
 

@@ -7,7 +7,7 @@ output: html_document
 
 # Exercise 1: Basic dplyr
 
-## 1.1 Use filter() to subset the gapminder data to three countries of your choice in the 1970’s.
+## 1.1 Use filter() to subset the gapminder data to three countries of your choice in the 1970’s
 
 ```{r}
 library(gapminder)
@@ -88,7 +88,7 @@ This distribution is skewed to the right. Therefore, the mode could be considere
 life1977 <- gapminder %>% 
   filter(year == 1977) %>% 
   select(lifeExp)  
-den <- density(life2007$lifeExp)
+den <- density(life1977$lifeExp)
 print(paste("The mode of this distribution is", round(den$x[which.max(den$y)],digits = 2), sep = " "))
 ```
 Standard deviation is one of the measures of spread.

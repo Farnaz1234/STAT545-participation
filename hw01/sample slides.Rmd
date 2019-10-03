@@ -17,7 +17,7 @@ library(gapminder)
 ```
 
 ## structure of gapminder
-
+33
 ```{r,size=5}
 str1 <- str(gapminder)
 str1 <- as.list(str1)
