@@ -18,3 +18,4 @@ My name is Farnaz Sahragard. I am a graduate student in Pathology and Laboratory
 
 # Class exercises list :
 - [Class 2](https://github.com/Farnaz1234/STAT545-participation/blob/master/class_participation/Week_1_%26_2/cm002-r_exploration.R)
+- [Class 3](./class_participation/Week_1_&_2/Class_03)
