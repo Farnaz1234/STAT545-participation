@@ -16,6 +16,7 @@ install.packages("scales")
 install.packages("tsibble")
 ```
 
+
 Now run this code chunk to load the packages:
 
 ```{r load packages, warning = FALSE}
