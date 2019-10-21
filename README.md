@@ -24,3 +24,4 @@ My name is Farnaz Sahragard. I am a graduate student in Pathology and Laboratory
 - [Class 7](https://github.com/Farnaz1234/STAT545-participation/tree/master/class_participation/class_07)
 - [Class 8](https://github.com/Farnaz1234/STAT545-participation/tree/master/class_participation/class_08)
 - [Class 9](https://github.com/Farnaz1234/STAT545-participation/tree/master/class_participation/class_09)
+- [Class 10](https://github.com/Farnaz1234/STAT545-participation/tree/master/class_participation/class_10)
